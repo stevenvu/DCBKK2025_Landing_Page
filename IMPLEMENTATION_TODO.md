@@ -3,13 +3,14 @@
 This roadmap organizes delivery into discrete, testable phases. Each phase lists the concrete steps required to reach the milestone and the checks that confirm completion.
 
 ## Phase 1 – Project Foundation
-- [ ] Initialize Next.js 14 + TypeScript workspace and commit baseline scaffolding.
-- [ ] Configure linting, formatting, and TypeScript strictness aligned with team conventions.
-- [ ] Add CI pipeline scripts or documentation for local linting/build commands.
+- [x] Initialize Next.js 14 + TypeScript workspace and commit baseline scaffolding.
+- [x] Configure linting, formatting, and TypeScript strictness aligned with team conventions.
+- [x] Add CI pipeline scripts or documentation for local linting/build commands.
 
 **Test/Verification**
 - Execute `npm run lint` and ensure it passes without warnings.
 - Execute `npm run build` to validate the project compiles.
+  - _Status_: Command execution is blocked in this environment due to restricted npm registry access; run locally or in CI to verify.
 
 ## Phase 2 – Layout & Theming
 - [ ] Implement global layout (app shell, header, board canvas) with responsive CSS grid/flex patterns.
